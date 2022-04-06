@@ -552,12 +552,10 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://twitter.com/MadTigersNft" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="http://discord.gg/6MR9NnkuCq" target="_blank"
+                               rel="noopener noreferrer">Discord</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -570,11 +568,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Mad Tigers NFT</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="mtigers.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
@@ -658,31 +656,22 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Mad Tigers NFT</GoldTitle></LogoAligner>
+                            <p>The clan's mission is simple: Release 333 Mad Tigers into the metaverse to do what Tigers do best, Hunt. We will attack and hunt everything in our way.</p>
+                            <p>This clan is being founded on the principles of relationship building, and comradery. Our clan is going to get roarer. Welcome fellow Tigers, to the Mad Tigers Clan. Assemble!</p>
+                            <p>HUNTING FEE: 0.3◎</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>UTILITY & ROADMAP</GoldTitle></LogoAligner>
+                            <p>By minting a Mad Tiger, you’ll immediately be part of an exclusive community of high-end NFT owners who are committed on being part of the innovation driving this incredible space forward.</p>
+                            <p>We’re committed to offering maximum utility to all of our Tigers. This utility will have an exponential growth over time as we continue to pioneer the NFT space under the Mad Tigers vision.</p>
+                            <p>Remember Tigers, we are creating the Mad Tigers clan with you – your ideas, support and feedback are most welcomed. Get ready to raid!</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TRAIT DIVERSITY</GoldTitle></LogoAligner>
+                            <p>All Tigers are insane, but some Tigers are more insane than others. We’ve created a trait diversity system to establish which Tigers are out of this world.</p>
+                            <p>There are a total of 150 traits in the clan, and these have been categorized into a tier based system.</p>
+                            <p>Traits are assigned from ‘common’ to ‘legendary’. Each trait has a percentage chance of being minted. All of the clan’s diversity will be displayed in our ‘traits’ section after the mint.</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
