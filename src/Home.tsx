@@ -554,7 +554,7 @@ const Home = (props: HomeProps) => {
                     <Menu>
                         <li><a href="https://twitter.com/MadTigersNft" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
-                        <li><a href="http://discord.gg/6MR9NnkuCq" target="_blank"
+                        <li><a href="https://discord.gg/PvrM9ms372" target="_blank"
                                rel="noopener noreferrer">Discord</a></li>
                     </Menu>
                     <Wallet>
